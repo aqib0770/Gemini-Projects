@@ -14,7 +14,6 @@ from langchain.prompts import PromptTemplate
 from io import BytesIO
 
 api = os.getenv("GEMINI_API_KEY")
-print(api)
 genai.configure(api_key=api)
 
 
